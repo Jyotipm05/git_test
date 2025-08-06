@@ -22,7 +22,7 @@ int main()
     if (arr[n - 1] == 0)
     {
         // println("{}", find(arr.begin(), arr.end(), 0) - arr.begin());
-        cout << (find(arr.begin(), arr.end(), 0) - arr.begin()) << endl;
+        cout << (find(arr.begin(), arr.end(), 0) - arr.begin()) << "hello" << endl;
     }
     else
     {
@@ -35,4 +35,5 @@ int main()
     }
     print("Hello");
     return 0;
+
 }
